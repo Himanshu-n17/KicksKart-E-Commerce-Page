@@ -16,10 +16,10 @@ const nav = () => {
         <a href="#">
           <FiHeart className="nav-icons" />
         </a>
-        <a href="">
+        <a href="#">
           <AiOutlineShoppingCart className="nav-icons" />
         </a>
-        <a href="">
+        <a href="#">
           <AiOutlineUserAdd className="nav-icons" />
         </a>
       </div>
