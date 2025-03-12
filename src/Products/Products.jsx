@@ -10,6 +10,7 @@ const Products = () => {
           <img
             src="https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg"
             alt="Shoe"
+            className="card-img"
           />
           <div className="card-details">
             <h3 className="card-title">Shoe</h3>
