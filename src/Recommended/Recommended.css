@@ -12,12 +12,27 @@
 }
 
 button {
-  padding: 10px 20px;
-  margin-right: 6px;
+  padding: 12px 25px;
+  margin-right: 10px;
   background: transparent;
-  border: none;
-  border: 0.6px solid #ccc;
+  border: 1px solid #ccc;
   border-radius: 5px;
   color: #323232;
   cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #708090;
+  color: white;
+  border-color: #708090;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1);
+  background: #5f6a6a;
 }
