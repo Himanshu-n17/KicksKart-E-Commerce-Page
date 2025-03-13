@@ -1,5 +1,5 @@
 import { AiFillStar } from "react-icons/ai";
-import { BsFillBagHeartFill } from "react-icons/bs";
+import { FaShoppingBag } from "react-icons/fa";
 import "./Products.css";
 
 const Products = () => {
@@ -27,7 +27,7 @@ const Products = () => {
               </div>
 
               <div className="bag">
-                <BsFillBagHeartFill />
+                <FaShoppingBag />
               </div>
             </section>
           </div>
@@ -53,7 +53,7 @@ const Products = () => {
               </div>
 
               <div className="bag">
-                <BsFillBagHeartFill />
+                <FaShoppingBag />
               </div>
             </section>
           </div>
@@ -79,7 +79,7 @@ const Products = () => {
               </div>
 
               <div className="bag">
-                <BsFillBagHeartFill />
+                <FaShoppingBag />
               </div>
             </section>
           </div>
@@ -105,7 +105,7 @@ const Products = () => {
               </div>
 
               <div className="bag">
-                <BsFillBagHeartFill />
+                <FaShoppingBag />
               </div>
             </section>
           </div>
