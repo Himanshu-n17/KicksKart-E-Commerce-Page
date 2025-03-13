@@ -1,7 +1,7 @@
 import Nav from "./Navigation/nav";
-import Products from "./Products/products";
+import Products from "./Products/Products";
 import Recommended from "./Recommended/Recommended";
-import Sidebar from "./Side Bar/Sidebar";
+import Sidebar from "./SideBar/Sidebar";
 
 const App = () => {
   return (
