@@ -8,7 +8,7 @@ import Card from "./Components/Card";
 import "./index.css";
 
 //DATA
-import products from "./DATA/db";
+import data from "./Data/db";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -20,7 +20,7 @@ function App() {
     setQuery(event.target.value);
   };
 
-  const filteredItems = products.filter(
+  const filteredItems = data.filter(
     (product) => product.title.toLowerCase().indexOf(query.toLowerCase()) !== -1
   );
 
@@ -34,8 +34,8 @@ function App() {
     setSelectedCategory(event.target.value);
   };
 
-  function filteredData(products, selected, query) {
-    let filteredProducts = products;
+  function filteredData(data, selected, query) {
+    let filteredProducts = data;
 
     // Filtering Input Items
     if (query) {
@@ -69,7 +69,7 @@ function App() {
     );
   }
 
-  const result = filteredData(products, selectedCategory, query);
+  const result = filteredData(data, selectedCategory, query);
 
   return (
     <>
