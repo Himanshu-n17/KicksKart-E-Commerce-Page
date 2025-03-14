@@ -17,7 +17,7 @@ function App() {
   const [query, setQuery] = useState("");
 
   const handleInputChange = (event) => {
-    setQuery(event.target.value);
+    setQuery(event.target.);
   };
 
   const filteredItems = data.filter(
