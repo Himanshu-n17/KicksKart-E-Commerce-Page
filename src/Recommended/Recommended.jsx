@@ -1,6 +1,7 @@
+import Button from "../Components/Button";
 import "./Recommended.css";
 
-const Recommended = () => {
+const Recommended = ({ handleClick }) => {
   return (
     <>
       <div>
@@ -16,4 +17,5 @@ const Recommended = () => {
     </>
   );
 };
+
 export default Recommended;
