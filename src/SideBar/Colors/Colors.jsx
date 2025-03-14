@@ -1,37 +1,57 @@
+import Input from "../../Components/Input";
 import "./Colors.css";
 
-const Colors = () => {
+const Colors = ({ handleChange }) => {
   return (
     <div>
       <h2 className="sidebar-title price-title">Price</h2>
-      <label className="sidebar-label-container">
-        <input type="radio" name="test2" />
-        <span className="checkmark"></span>All
-      </label>
 
       <label className="sidebar-label-container">
-        <input type="radio" name="test2" />
-        <span className="checkmark"></span>Black
+        <input onChange={handleChange} type="radio" value="" name="test1" />
+        <span className="checkmark all"></span>All
       </label>
 
-      <label className="sidebar-label-container">
-        <input type="radio" name="test2" />
-        <span className="checkmark"></span>Blue
-      </label>
+      <Input
+        handleChange={handleChange}
+        value="black"
+        title="Black"
+        name="test1"
+        color="black"
+      />
+      <Input
+        handleChange={handleChange}
+        value="blue"
+        title="Blue"
+        name="test1"
+        color="blue"
+      />
+      <Input
+        handleChange={handleChange}
+        value="red"
+        title="Red"
+        name="test1"
+        color="red"
+      />
+      <Input
+        handleChange={handleChange}
+        value="green"
+        title="Green"
+        name="test1"
+        color="green"
+      />
 
       <label className="sidebar-label-container">
-        <input type="radio" name="test2" />
-        <span className="checkmark"></span>Green
-      </label>
-
-      <label className="sidebar-label-container">
-        <input type="radio" name="test2" />
-        <span className="checkmark"></span>Red
-      </label>
-
-      <label className="sidebar-label-container">
-        <input type="radio" name="test2" />
-        <span className="checkmark"></span>White
+        <input
+          onChange={handleChange}
+          type="radio"
+          value="white"
+          name="test1"
+        />
+        <span
+          className="checkmark"
+          style={{ background: "white", border: "2px solid black" }}
+        ></span>
+        White
       </label>
     </div>
   );
