@@ -26,7 +26,7 @@ function App() {
 
   // ----------- Radio Filtering -----------
   const handleChange = (event) => {
-    setSelectedCategory(event.target.);
+    setSelectedCategory(event.target.value);
   };
 
   // ------------ Button Filtering -----------
