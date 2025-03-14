@@ -8,6 +8,8 @@ const nav = () => {
         <input
           type="text"
           className="search-input"
+          onChange={handleInputChange}
+          value={query}
           placeholder="Enter Your Preferred Shoes..."
         />
       </div>
